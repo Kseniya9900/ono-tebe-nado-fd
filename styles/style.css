@@ -4,7 +4,7 @@
 }
 
 .header {
-  padding: 89px 24px 93px 24px;
+  padding: 90px 24px 92px 24px;
   display: grid;
   grid-template-columns: 452px 335px 1fr;
   align-items: center;
@@ -217,7 +217,7 @@ address {
 
 .cards-item {
   position: relative;
-  padding: 51px 40px 80px 40px;
+  padding: 51px 40px 81px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -327,7 +327,6 @@ address {
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
-  width: 693px;
 }
 
 .text-indentation {
