@@ -150,7 +150,7 @@ address {
 
 
 .main-banner-menu-text {
-  display: flex;
+  display: inline-flex;
   gap: 24px;
   font-size: 22px;
   font-weight: 400;
