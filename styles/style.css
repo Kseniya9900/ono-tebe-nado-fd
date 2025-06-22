@@ -87,8 +87,9 @@ address {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,.6);
-  z-index: 2;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  pointer-events: none;
 
 }
 
@@ -96,7 +97,7 @@ address {
   display: grid;
   gap: 32px;
   position: relative;
-  z-index: 3;
+  z-index: 2;
   margin-bottom: 107.2px;
   font-size: 100px;
   font-weight: 700;
@@ -150,7 +151,7 @@ address {
 
 .main-banner-menu {
   position: relative;
-  z-index: 3;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -165,7 +166,6 @@ address {
   line-height: 28px;
   list-style: none;
   text-transform: uppercase;
-  opacity: 0.6;
 }
 
 
@@ -339,7 +339,9 @@ address {
 
 /* footer */
 
-
+.page-footer {
+  margin-bottom: 92px;
+}
 
 .footer-container {
  display: grid;
